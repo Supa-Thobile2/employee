@@ -2,6 +2,7 @@ import React from "react"
 import '../css/displayEmployee.css'
 
 function DisplayEmployee(props){
+    
     return(
         <div className="display">
             {props.table.map((employee)=>(

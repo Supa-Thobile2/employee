@@ -1,4 +1,5 @@
 import React from "react"
+import '../css/displayEmployee.css'
 
 function DisplayEmployee(props){
     return(

@@ -1,7 +1,7 @@
 
 import React,{useState} from 'react'
-
 import '../css/addEmployee.css'
+
 function AddEmployee(props){
     let btn={
         marginTop: '20px',

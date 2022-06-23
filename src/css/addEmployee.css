@@ -1,8 +1,4 @@
-.container{
-    width: 800px;
-    margin: 0 auto;
-    
-}
+
 
 h3{
     font-family: calibri;
@@ -11,4 +7,5 @@ h3{
 
 input{
     width: 600px;
+    padding-left: -10px;
 }

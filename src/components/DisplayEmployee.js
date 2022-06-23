@@ -5,6 +5,7 @@ function DisplayEmployee(props){
     
     return(
         <div className="display">
+            <h1>Employee List</h1>
             {props.table.map((employee)=>(
                      <table>
                      <tr>

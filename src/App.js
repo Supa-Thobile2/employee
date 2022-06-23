@@ -12,13 +12,14 @@ function App() {
 
   const addEmployee = ((firstName,lastName,email)=>{
 
-    setEmployee((employee)=>[...employee,{
+    setEmployee((item)=>[...item,{
       firstName:firstName,
       lastName:lastName,
       email:email
     }])
     console.log(addEmployee)
   })
+  
   
   return (
     <div>
